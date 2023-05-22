@@ -1,0 +1,776 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    background-color: #14063D;
+    color: #fff;
+}
+
+/* img {
+    border-radius: 3rem;
+} */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 132rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.logo {
+    border-radius: 0;
+}
+
+.nav__link-2 {
+    margin-left: 4rem;
+}
+
+.nav__btn {
+    padding: 1rem 4rem;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+    border-radius: 5.5rem;
+}
+
+.wrapper {
+    overflow: hidden;
+
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    background-image: url(img/header-img.png);
+    background-repeat: no-repeat;
+    left: 30%;
+    right:0;
+    top: 25%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    background-image: url(img/header-agoust.png);
+    height: 100%;
+    top: 15%;
+    right: 0;
+    left: 85%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.header__info {
+    margin-top: 7rem;
+    max-width: 50rem;
+}
+
+.header__title {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    margin-bottom: 3rem;
+}
+
+.header__title span {
+    background: linear-gradient(89.89deg, #800BF5 1.34%, #25C6F9 40.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__text {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.input__form {
+    width: 100%;
+    height: 9.6rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(28px);
+    border-radius: 13.6rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    padding-left: 4rem;
+    padding-right: 7rem;
+    margin-top: 11rem;
+    margin-bottom: 5rem;
+}
+
+.form {
+    position: relative;
+}
+
+.form::before {
+    content: '';
+    position: absolute;
+    background-image: url(img/form__agoust.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    top: 52%;
+    left: 2rem;
+    right: 0;
+    z-index: -1;
+    align-items: center;
+}
+
+.form::after {
+    position: absolute;
+    content: url(img/next.png);
+    
+    right: 0rem;
+    top: 10.7rem;
+    /* background: rgba(255, 255, 255, 0.2); */
+    padding: 3.5rem 3.5rem;
+    border-radius: 13.6rem;
+    
+}
+
+/* .input__button {
+    padding: 4rem 3.2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(28px);
+    border-radius: 50%;
+    position: relative;
+} */
+
+
+
+
+.header__games {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 2.5rem;
+    z-index: 1;
+}
+
+.header__games-img {
+    border-radius: 2.7rem;
+    margin-bottom: 2.5rem;
+    width: 98%;
+
+}
+
+.games__title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.games__text {
+    opacity: .4;
+    margin-top: .8rem;
+    max-width: 23rem;
+}
+
+.foto {
+    max-width: 100%;
+    border-radius: 2.5rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+
+.slider__games {
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+}
+
+.slider__games-text {
+    margin-bottom: 6.5rem;
+    margin-top: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menu__info {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: .8rem 1.6rem;
+    border: 1px solid;
+    border-radius: 4.8rem;
+    display: inline-block;
+}
+
+.menu__games-title {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    max-width: 73rem;
+    /* margin-left: 35rem; */
+}
+
+.slider__foto {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+.swiper-pagination-bullet {
+    max-width: 30rem;
+    height: .1rem;
+    background-color: #fff;
+    opacity: .3;
+    transform: translateY(-2rem);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    height: .2rem;
+    border-radius: 0;
+    opacity: 1;
+}
+
+/* .images__item {
+    width: 44rem;
+    height: 44rem;
+    background: #800BF5;
+    filter: blur(100px);
+    position: relative;
+    z-index: -5;
+}
+    
+.images__number {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 12rem;
+    color: #14063D;
+    color: #25C6F9;
+    z-index: 5;
+} */
+
+.games__img {
+    border-radius: 2.7rem;
+}
+
+.games {
+    padding-bottom: 100px;
+}
+
+.owl-nav {
+    transform: translateY(-22rem);
+    float: right;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 3rem;
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+}
+
+.for__family {
+    margin: 9.5rem 0;
+}
+
+.action {
+    margin-bottom: 100px;
+}
+
+.action__info {
+    display: flex;
+    gap: 11rem;
+    align-items: center;
+    margin-top: 11rem;
+    justify-content: center;
+}
+
+.action__item {
+    position: relative;
+    width: 53rem;
+    height: 53rem;
+    object-fit: cover;
+    object-position: center;
+    background-color: #800BF5;
+    border-radius: 50%;
+}
+
+.action__item::before {
+    content: url(img/action1.svg);
+    position: absolute;
+    top: -17rem;
+    left: 7rem;
+}
+
+.action__title {
+    position: absolute;
+    font-family: 'Russo One';
+    font-size: 4rem;
+    line-height: 4.8rem;
+    left: 16rem;
+    top: 23rem;
+}
+
+/* .action__title {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    padding: 25rem 14.5rem;
+    background-color: #800BF5;
+    border-radius: 50%;
+} */
+
+.action__text {
+    position: absolute;
+    left: 17rem;
+    top: 42rem;
+    text-align: center;
+}
+
+.action__text span {
+    opacity: .3;
+}
+
+.action__item-2 {
+    width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    background: rgb(128,11,245);
+    background: linear-gradient(0deg, rgba(128,11,245,1) 0%, rgba(81,25,193,1) 100%);
+    position: relative;
+}
+
+.action__item-2::before {
+    content: url(img/action2.svg);
+    position: absolute;
+    top: -13rem;
+    left: 7rem;
+}
+
+.action__title-2 {
+    font-family: 'Russo One';
+    font-size: 4rem;
+    line-height: 4.8rem;
+    position: absolute;
+    top: 20rem;
+    left: 8rem;
+}
+
+.action__text-2 {
+    top: 38rem;
+    left: 16rem;
+}
+
+.platform__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 21rem;
+    margin-bottom: 6.5rem;
+}
+
+
+
+.img__platform {
+    border-radius: 2.7rem;
+    /* box-shadow: 7px -9px 31px -1px rgba(145,77,145,0.52); */
+}
+
+.platform__info-2 {
+    position: relative;
+}
+
+.platform__info-2::before {
+    content: url(img/kub.png);
+    position: absolute;
+    left: 45rem;
+    z-index: -1;
+    opacity: .8;
+}
+
+.number {
+    font-family: 'Russo One';
+    font-size: 12rem;
+    line-height: 12rem;
+    color: #fff;
+    opacity: .3;
+    margin-top: 6rem;
+}
+
+.number-1 {
+    color: #800BF5;
+}
+
+.number-3 {
+    color: #5425e0;
+}
+
+.platform__title {
+    font-family: 'Russo One';
+    font-size: 4rem;
+    line-height: 4.8rem;
+    margin: 10rem 0 2.5rem;
+}
+
+.platform__title span {
+    color: #49CBF4;
+}
+
+.platform__text {
+    margin-bottom: 5rem;
+}
+
+.response__item {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    padding: 5rem 15rem 20rem 6rem;
+    background: radial-gradient(97.45% 104.97% at 6.67% -4.97%, #800BF5 0%, rgba(128, 11, 245, 0.22822) 46.56%, rgba(128, 11, 245, 0.0799674) 63.12%, rgba(128, 11, 245, 0.0319667) 73.24%, rgba(128, 11, 245, 0) 85.56%);
+    border-radius: 2.4rem;
+}
+
+.response__text {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    position: relative;
+}
+
+.response__text::before {
+    content: url(img/svg/quote.svg);
+    position: absolute;
+    left: -4rem;
+    top: -2rem;
+}
+
+.response__about-name {
+    display: inline-block;
+    width: 13.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.accordion__item {
+	margin: 15px 0;
+    max-width: 120.5rem;
+}
+.accordion__item .accordion__title {
+	position: relative;
+	display: block;
+	padding: 3.6rem 0 3.6rem 5rem;
+	color: #14063D;
+	font-size: 2rem;
+    background: linear-gradient(90deg, #00C2FF 0%, rgba(73, 203, 244, 0) 100%);
+    backdrop-filter: blur(28px);
+    border-radius: 5.6rem;
+    cursor: pointer;
+}
+
+.accordion__item .accordion__title:hover {
+	background-color: #49CBF4;
+	transition: all 0.5s ease-out;
+}
+.accordion__item .accordion-active {
+	background-color: #49CBF4;
+}
+.accordion__item .accordion__title .accordion__arrow {
+	position: absolute;
+	top: 0;
+     right: 1rem;
+	display: inline-block;
+	width: 9rem;
+	height: 9rem;
+	/* text-align: center; */
+	color: #14063D;
+    font-size: 5rem;
+    background: linear-gradient(90deg, #00C2FF 0%, rgba(73, 203, 244, 0) 100%);
+	border-radius: 50%;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.accordion__item .accordion__rotate {
+	transform: rotate(48deg);
+}
+.accordion__item .accordion__content {
+	padding: 3rem;
+	display: none;
+	background-color: #49CBF4;
+    color: #14063D;
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+}
+.accordion__item .accordion__arrow-item {
+	font-weight: 400;
+    position: absolute;
+    top: 3.2rem;
+    left: 3.2rem;
+}
+
+.partners {
+    margin-top: 10rem;
+    /* background-image: url(img/footer.png); */
+    width: 100%;
+}
+
+.partners__list {
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.moon__img {
+    overflow: hidden;
+    background-size: cover;
+    transform: translateY(-30%);
+    position: absolute;
+    z-index: -1;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.footer {
+    margin-top: 15rem;
+    background-color: #14063D;
+    padding: 6rem 6rem 1rem;
+}
+
+.footer__logo {
+    border-radius: 0;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.nav__link-footer {
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+
+.nav__link-footer:first-child {
+    margin-left: 0;
+}
+
+.contacts__mail {
+    color: #49CBF4;
+    margin-right: 6.3rem;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-bottom: 7rem;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer__link:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
+.nav__link-footer:hover {
+    color:#800BF5;
+    transition: .5s;
+}
+
+.nav__btn:hover {
+    scale: 1.2;
+    transition: 1.3s;
+}
+
+.nav__btn:hover a {
+    scale: 1.2;
+}
+
+.footer__link-img {
+    padding: 1.6rem;
+    border-radius: 50%;
+    border: #25C6F9 1px solid;
+    text-align: center;
+    display: flex;
+    transition: .3s;
+}
+
+.footer__link-img:hover {
+    background: linear-gradient(89.89deg, #800BF5 1.34%, #25C6F9 40.86%);
+    scale: 1.2;
+    transition: .5s;
+}
+
+.footer__link-img-tg {
+    padding: 2rem;
+}
+
+.footer__link {
+    padding: 1.8rem 4rem;
+    border-radius: 5.5rem;
+    background:linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%) ;
+}
+
+.footer__text {
+    opacity: 30%;
+    margin-top: 1.5rem;
+}
+
+.footer__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 1.4rem;
+}
+
+.images__items-1 {
+    margin-left: 30rem;
+    position: relative;
+    object-fit: cover;
+}
+
+.images__items-1::before {
+    content: url(img/astrounaft.png);
+    position: absolute;
+    left: -30rem;
+    top: 40rem;
+    max-width: 100%;
+    
+}
+
+.images__items-1::after {
+    content: url(img/new/down.png);
+    position: absolute;
+    left: 45rem;
+    top: 30rem;
+}
+
+.img__01 {
+    position: relative;
+}
+
+.img__02, .img__03 {
+
+}
+
+.images__list {
+    max-width: 1200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.images__text {
+   transform: translateY(-25rem);
+   max-width: 28rem;
+}
+
+.images__items-2 {
+    margin-left: 65rem;
+    position: relative;
+    margin-top: -5rem;
+}
+
+.images__items-2::before {
+    content: url(img/new/down-2.png);
+    position: absolute;
+    top: 20rem;
+    left: -25rem;
+}
+
+.images__items-3 {
+    margin-left: 15rem;
+    margin-top: -7rem;
+    position: relative; 
+}
+
+.images__items-3::after {
+    content: url(img/new/down-3.png);
+    position: absolute;
+    left: 45rem;
+    top: 20rem;
+}
+
+.start__game {
+    width: 28rem;
+    height: 28rem;
+    border-radius: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+    margin-left: 70rem;
+    margin-top: -10rem;
+    position: relative;
+}
+
+.start__game::after {
+    content: url(img/new/astrounaft-2.png);
+    position: absolute;
+    right: -30rem;
+}
+
+.android__tv {
+    display: flex;
+    align-items: center;
+    max-width: 18rem;
+    gap: 1rem;
+    margin-left: 45rem;
+    position: relative;
+}
+
+.android__tv::before {
+    content: url(img/new/down-4.png);
+    position: absolute;
+    top: -7rem;
+    left: 15rem;
+}
+
+.images__cont {
+    max-width: 100%;
+}
+
+.img__radius {
+    border-radius: 4rem;
+}
+

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> 
+    <link rel="stylesheet" href="owlcarusel/owl.carousel.min.css">  
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+   <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <nav class="nav">
+                    <div class="nav__item">
+                        <a href="#!" class="nav__link">о компании</a>
+                        <a href="#!" class="nav__link nav__link-2">вакансии</a>
+                    </div>
+                    <a href="#!" class="logo__link"><img src="img/logo.svg" alt="" class="logo"></a>
+                    <a href="#!" class="nav__btn">Начать играть</a>
+                </nav>
+                <div class="header__info">
+                    <h1 class="header__title">
+                        <p class="header__title"><span>Лучшие</span> игры 
+                            со всего мира</p>
+                    </h1>
+                    <p class="header__text">Каждую пятницу новая порция.</p> 
+                    <p class="header__text">Подписка за <span style="color: #49CBF4;">399 ₽</span> в месяц</p>
+                </div>
+                <div class="form">
+                    <input class="input__form" type="text" placeholder="Введите email чтобы войти в аккаунт или создать новый">
+                </div>
+                
+                <div class="header__games">
+                    <div class="header__games-item">
+                        <img src="img/header-games/headerg1.jpg" alt="" class="header__games-img img__radius">
+                        <h4 class="games-title">Свинтус NEON</h4>
+                        <p class="games__text">Весёлая и быстрая карточная игра для любой компании</p>
+                    </div>
+                    <div class="header__games-item">
+                        <img src="img/header-games/headerg2.jpg" alt="" class="header__games-img img__radius">
+                        <h4 class="games-title">Квиз Логика</h4>
+                        <p class="games__text">Настольное развлечение для детей и взрослых</p>
+                    </div>
+                    <div class="header__games-item">
+                        <img src="img/header-games/headerg3.jpg" alt="" class="header__games-img img__radius">
+                        <h4 class="games-title">Правда или действие</h4>
+                        <p class="games__text">Всё будет основано только на вашей жизни и фактах из неё</p>
+                    </div>
+                    <div class="header__games-item">
+                        <img src="img/header-games/headerg4.jpg" alt="" class="header__games-img img__radius">
+                        <h4 class="games-title">Имаджинариум</h4>
+                        <p class="games__text">Вам понадобится вся ваша фантазия и эмпатия</p>
+                    </div>
+                </div>
+            </header>
+            <div class="header__foto">
+                <img class="foto" src="img/foto.jpg" alt="">
+            </div>
+            <!-- <div class="images">
+                <div class="slider__games-text">
+                    <h6 class="menu__info">Играйте вместе</h6>
+                    <p class="menu__games-title">Partystation — новый способ развлечений для любой компании</p>
+                </div>
+                
+                <div class="images__cont">
+                    <div class="images__list">
+                        <div class="images__items-1">
+                                <img src="img/new/01.png" alt="" class="img__01">
+                                <p class="images__text">Собери друзей перед экраном ТВ и можно начинать вечеринку!</p>
+                        
+                        </div>   
+                        <div class="images__items-2">
+                                <img src="img/new/02.png" alt="" class="img__02">
+                                <p class="images__text">Подключайте смартфоны к телевизору одним нажатием</p>
+                        
+                        </div>   
+                        <div class="images__items-3">
+                                <img src="img/new/03.png" alt="" class="img__03">
+                                <p class="images__text">Смартфоны в руках возьмут — игровые контроллеры</p>
+                        
+                        </div> 
+                        <div class="start__game">Начать играть</div>  
+                        <div class="android__tv">
+                            <img src="img/new/android.png" alt="">
+                            <p class="android__tv-text">Так же доступно на AndroidTV</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> -->
+            <div class="slider__games">
+                <div class="slider__games-text">
+                    <h6 class="menu__info">во что сыграем?</h6>
+                    <p class="menu__games-title">Простые правила, быстрые и интересные партии и постоянно пополняющийся каталог</p>
+                </div>
+            
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img class="slider__foto img__radius" src="img/slider-big/foto2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="slider__foto img__radius" src="img/slider-big/foto1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="slider__foto img__radius" src="img/slider-big/foto2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img class="slider__foto img__radius" src="img/slider-big/foto1.jpg" alt=""></div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="games">
+                <div class="new__games">
+                    <h3 class="title">Новинки</h3>
+                    <div class="owl-carousel owl-theme">
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new1.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new2.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new3.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new4.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new5.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/new5.jpg" alt=""></a>
+                    </div>    
+                </div>
+                <div class="for__family">
+                    <h3 class="title">Для всей семьи</h3>
+                    <div class="owl-carousel owl-theme">
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall1.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall2.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall3.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall4.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall5.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forall5.jpg" alt=""></a>
+                    </div>    
+                </div>
+                <div class="for__smart">
+                    <h3 class="title">Для самых умных</h3>
+                    <div class="owl-carousel owl-theme">
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart1.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart2.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart3.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart4.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart5.jpg" alt=""></a>
+                        <a href="#!"><img class="games__img img__radius" src="img/games/forsmart5.jpg" alt=""></a>
+                    </div>    
+                </div>
+            </div>
+            <div class="action">
+                <h6 class="menu__info">Играйте бесплатно, купите потом</h6>
+                <div class="action__info">
+                    <div class="action__item">
+                        <p class="action__title">Бесплатно</p>
+                        <p class="action__text">Базовая версия<br><span>с ограниченным доступом</span></p>
+                    </div>
+                    <div class="action__item-2">
+                        <p class="action__title-2">399 руб/месяц</p>
+                        <p class="action__text action__text-2">Премиум версия <br><span>с полным доступом</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="platform">
+                <h6 class="menu__info">Возможности платформы</h6>
+                <div class="platform__item">
+                    <div class="platform__info">
+                        <h5 class="number number-1">01</h5>
+                        <p class="platform__title">Можно играть на <span>Smart-tv</span> или <span>PC</span></p>
+                        <p class="platform__text">Собери друзей перед экраном ТВ и можно начинать вечеринку!</p>
+                        <a href="#!" class="nav__btn">Начать играть</a>
+                    </div>
+                    <div class="platform__img"><img class="img__platform" src="img/platform1.jpg" alt=""></div>
+                </div>
+                <div class="platform__item">
+                    <div class="platform__info platform__info-2">
+                        <h5 class="number number-2">02</h5>
+                        <p class="platform__title">Мобильный телефон в качестве <span>контроллера</span></p>
+                        <p class="platform__text">с их помощью можно выбирать правильные ответы, управлять событиями на большом экране</p>
+                        <a href="#!" class="nav__btn  nav__btn-2">Начать играть</a>
+                    </div>
+                    <div class="platform__img"><img class="img__platform img__platform-2" src="img/platform2.jpg" alt=""></div>
+                </div>
+                <div class="platform__item">
+                    <div class="platform__info">
+                        <h5 class="number number-3">03</h5>
+                        <p class="platform__title"><span>Новые</span> игры каждую пятницу</p>
+                        <p class="platform__text">Простые правила, быстрые и интересные партии</p>
+                        <a href="#!" class="nav__btn">Начать играть</a>
+                    </div>
+                    <div class="platform__img"><img class="img__platform" src="img/platform3.jpg" alt=""></div>
+                </div>
+            </div>
+            <!-- <div class="response owl-carousel">
+                <div class="response__item">
+                    <p class="response__text">Команда, опыт, любовь к прогрессу, экспертиза, а еще business-first подход: мы не «продаем решения», а создаем стратегию развития вместе с заказчиком, где важен результат, а не набор технологий.</p>
+                    <div class="response__about">
+                        <span class="response__about-name">Антон Кириленко</span>
+                        <img src="img/response.png" alt="">
+                    </div>
+                </div>
+                <div class="response__item">
+                    <p class="response__text">Команда, опыт, любовь к прогрессу, экспертиза, а еще business-first подход: мы не «продаем решения», а создаем стратегию развития вместе с закlfsbklhjfdslbkshnlbsjflbsjh;lазчиком, где важен результат, а не набор технологий.</p>
+                    <div class="response__about">
+                        <span class="response__about-name">Антон Кириленко</span>
+                        <img src="img/response.png" alt="">
+                    </div>
+                </div>
+               
+            </div> -->
+            <div class="question">
+                <h6 class="menu__info" style="margin-bottom: 3rem;">faq</h6>
+                        <div class="accordion">
+                            <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"><span class="accordion__arrow-item ">+</span></div> 
+                                        <span class="accordion__title-text">Что такое PartyStation?</span>
+                                    </div>
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maiores vel alias aspernatur eveniet reprehenderit. Corrupti id accusantium beatae, animi quia ratione aperiam, voluptas odit distinctio velit, suscipit ullam maiores!
+                                    </div>
+                            </div>
+                            <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"><span class="accordion__arrow-item ">+</span></div> 
+                                        <span class="accordion__title-text">Какие игры есть в PartyStation?</span>
+                                    </div>
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maiores vel alias aspernatur eveniet reprehenderit. Corrupti id accusantium beatae, animi quia ratione aperiam, voluptas odit distinctio velit, suscipit ullam maiores!
+                                    </div>
+                            </div>
+                            <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"><span class="accordion__arrow-item ">+</span></div> 
+                                        <span class="accordion__title-text">Как играть в PartyStation?</span>
+                                    </div>
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maiores vel alias aspernatur eveniet reprehenderit. Corrupti id accusantium beatae, animi quia ratione aperiam, voluptas odit distinctio velit, suscipit ullam maiores!
+                                    </div>
+                            </div>
+                            <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"><span class="accordion__arrow-item ">+</span></div> 
+                                        <span class="accordion__title-text">Какие устройства поддерживаются в PatyStation?</span>
+                                    </div>
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maiores vel alias aspernatur eveniet reprehenderit. Corrupti id accusantium beatae, animi quia ratione aperiam, voluptas odit distinctio velit, suscipit ullam maiores!
+                                    </div>
+                            </div>
+                            <div class="accordion__item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__arrow"><span class="accordion__arrow-item ">+</span></div> 
+                                        <span class="accordion__title-text">Сколько это стоит?</span>
+                                    </div>
+                                    <div class="accordion__content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, maiores vel alias aspernatur eveniet reprehenderit. Corrupti id accusantium beatae, animi quia ratione aperiam, voluptas odit distinctio velit, suscipit ullam maiores!
+                                    </div>
+                            </div>
+                         </div>
+            </div>
+            <div class="partners">
+                        <h6 class="menu__info">partners</h6>
+                        <div class="partners__list">
+                            <img src="img/partners/p1.png" alt="">
+                            <img src="img/partners/p2.png" alt="">
+                            <img src="img/partners/p3.png" alt="">
+                            <img src="img/partners/p4.png" alt="">
+                            <img src="img/partners/p5.png" alt="">
+                        </div>
+                    </div>
+                
+
+        </div>
+        <img class="moon__img" src="img/moon.png" alt="">
+
+        
+   </div>
+   <div class="container">
+    
+</div>
+<footer class="footer">
+        <div class="footer__items">
+            <div class="footer__top">
+                <img class="footer__logo" src="img/footer-logo.png" alt="">
+            
+            <nav class="nav-footer">
+                <div class="nav__item-footer">
+                    <a href="#!" class="nav__link-footer">О компании</a>
+                    <a href="#!" class="nav__link-footer">Вакансии</a>
+                    <a href="#!" class="nav__link-footer">Для партнеров</a>
+                    <a href="#!" class="nav__link-footer">Размещение рекламы</a>
+                </div>
+            </nav>
+            <a href="mailto:info@pstv.ru" class="contacts__mail">info@pstv.ru</a>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__links">
+                <a href="#" class="footer__link">Служба поддержки</a>
+                <a href="#!" class="footer__link-img footer__link-img-tg"><img src="img/svg/tg.svg" alt="" class="link__img"></a>
+                <a href="#!" class="footer__link-img"><img src="img/svg/yt.svg" alt="" class="link__img"></a>
+                <a href="#!" class="footer__link-img"><img src="img/svg/ok.svg" alt="" class="link__img"></a>
+                <a href="#!" class="footer__link-img"><img src="img/svg/vk.svg" alt="" class="link__img"></a>
+                <a href="#!" class=""><img src="img/google.png" alt="" class="footer__link"></a>
+            </div>
+            
+           
+        </div> 
+        <div class="footer__end">
+            <p class="footer__text">Developed by Maksym Pastukh</p>
+            <a href="#" class="footer__text">Пользовательское соглашение</a>
+            <a href="#" class="footer__text">Политика конфиденциальности</a>
+            <div class="footer__contacts">
+                <a href="tel:+74996850043" class="phone">+7 (499) 685-00-43</a>
+                <p class="footer__text">к322А, Центральный пр.,<br> Зеленоград, Москва,</p>
+            </div>
+
+            
+        </div>
+        </div>
+    </footer>        
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="owl.carousel.min.js"></script>
+   <script src="main.js"></script>  
+</body>
+</html>
+                    
+                        

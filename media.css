@@ -1,0 +1,396 @@
+@media (max-width:1250px) {
+    .platform__item {
+        gap: 5rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .action__item {
+        max-width: 40rem;
+        max-height: 40rem;
+    }
+
+    .action__item-2 {
+        max-width: 30rem;
+        max-height: 30rem;
+    }
+
+    .action__item::before {
+        scale: .7;
+        top: -21rem;
+        left: 0;
+    }
+
+    .action__title {
+        left: 10rem;
+        top: 19rem;
+    }
+
+    .action__text {
+        left: 10rem;
+    }
+
+    .action__item-2::before {
+        left: 0;
+        scale: .7;
+    }
+
+    .action__title-2 {
+        left: 7rem;
+        top: 12rem;
+    }
+
+    .img__platform {
+        background-size: cover;
+    }
+
+ .accordion__arrow-item {
+         
+    }
+
+    .accordion__arrow {
+        right: 4.5rem;
+    }
+
+    .accordion__title {
+    }
+}
+
+
+
+
+@media (max-width:960px) {
+    .slider__games-text {
+        flex-direction: column;
+    }
+
+    .menu__info {
+        margin-bottom: 2rem;
+    }
+
+    .img__platform {
+        max-width: 100%;
+    }
+
+    .number {
+        font-size: 10rem;
+    }
+
+    .platform__title {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 3rem 0 2.5rem;
+    }
+
+    .accordion__item .accordion__title {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .accordion__item .accordion__title .accordion__arrow {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .accordion__item .accordion__arrow-item {
+        top: 2rem;
+        left: 1.7rem;
+    }
+
+    .partners {
+        margin-top: 3rem;
+    }
+
+    .partners__list {
+        margin-top: 3rem;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .contacts__mail {
+        margin: 0;
+    }
+}
+
+@media (max-width:830px) {
+
+    .header__games {
+        display: block;
+        column-count: 2;
+    }
+
+    .header__games-item {
+        margin-bottom: 5rem;
+    }
+
+    .foto {
+        margin-top: 3rem;
+    }
+    .action__info {
+        gap: 2rem;
+    }
+
+    .action__title, .action__title-2 {
+        font-size: 4rem;
+    }
+
+    .menu__info {
+        font-size: 1rem;
+    }
+
+    .number {
+        font-size: 8rem;
+        margin-top: 0rem;
+    }
+
+    .platform__title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 3rem 0 2.5rem;
+    }
+
+    .platform__text {
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        padding-bottom: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+@media  (max-width:700px) {
+    .input__form {
+        font-size: 1.7rem;
+        height: 7.6rem;
+
+    }
+
+    .form::after {
+        top: 9.7rem;
+
+    }
+
+    .menu__games-title {
+        font-size: 3.5rem;
+    }
+
+    .slider__games {
+        margin-bottom: 7rem;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .for__family {
+        margin-bottom: 4.5rem;
+    }
+
+    .games {
+        padding-bottom: 3rem;
+    }
+    
+
+    .action__item {
+        max-width: 30rem;
+        max-height: 30rem;
+    }
+
+    .action__item-2 {
+        max-width: 25rem;
+        max-height: 25rem;
+    }
+
+    .action__item::before {
+        scale: .6;
+        top: -21rem;
+        left: -6rem;
+    }
+
+    .action__title {
+        left: 4rem;
+        top: 13rem;
+    }
+
+    .action__text {
+        left: 10rem;
+    }
+
+    .action__item-2::before {
+        left: -2rem;
+        scale: .6;
+    }
+
+    .action__title-2 {
+        left: 5rem;
+        top: 9rem;
+    }
+
+    .nav__link-footer {
+        font-size: 1.5rem;
+    }
+
+    .contacts__mail {
+        font-size: 1.4rem;
+    }
+
+    
+    
+}
+
+@media  (max-width:600px) {
+    .nav {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .header__title {
+        font-size: 5.4rem;
+    }
+
+    .input__form {
+        font-size: 1.5rem;
+        margin-top: 7rem;
+    }
+
+    .form::after {
+        top: 5.6rem;
+    }
+    
+    .menu__games-title {
+        font-size: 3rem;
+    }
+
+    .header__games {
+        column-count: 1;
+        height: 80%;
+    }
+
+
+    .action__info {
+        flex-direction: column;
+        gap: 15rem;
+    }
+
+    .action__text {
+        left: 6.5rem;
+        margin-top: -10rem;
+    }
+
+    .platform__item {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .platform__title {
+        margin: .3rem;
+    } 
+
+
+    .img__platform {
+        height: 34rem;
+        float: right;
+
+    }
+
+    .img__platform-2 {
+        float: left;
+    }
+
+    
+
+    .nav__btn-2 {
+        float: right;
+    }
+
+    .accordion__item .accordion__title .accordion__arrow {
+        display: none;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer__bottom {
+        margin-bottom: 2rem;
+    }
+
+    .footer__end {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer__contacts {
+        text-align: center;
+    }
+
+    .nav__item-footer {
+        display: flex;
+        flex-direction: column;
+        gap:  1rem;
+        text-align: center;
+    }
+
+    .nav__link-footer {
+        margin: 0;
+    }
+
+
+}
+
+@media  (max-width:450px) {
+    .header__title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .header__text {
+        font-size: 1.7rem;
+    }
+
+    .games__text {
+        font-size: 1.4rem;
+    }
+
+   
+
+    .menu__games-title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .accordion__item .accordion__title {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.6rem;
+    }
+} 
+
+@media  (max-width:330px) {
+    .input__form {
+        height: 6rem;
+    }
+
+    .form::after {
+        top: 4.8rem;
+        right: -2rem;
+    }
+    .img__platform {
+        height: auto;
+        float: right;
+
+    }
+
+    .accordion__item .accordion__title {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+    
+}
